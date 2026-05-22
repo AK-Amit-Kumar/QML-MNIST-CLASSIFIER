@@ -1,0 +1,13 @@
+qml-env/
+__pycache__/
+*.pyc
+*.pth
+data/
+results/*.png
+results/*.pth
+results/*.json
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+.DS_Store
+pyvenv.cfg
