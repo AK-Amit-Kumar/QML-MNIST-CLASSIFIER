@@ -30,7 +30,6 @@
 
 </div>
 
----
 
 ## What Is This, Really?
 
@@ -45,7 +44,6 @@ By the end of this README you will understand:
 - What the **single most impactful optimization** turned out to be (it was not the circuit)
 - What you need to run this yourself in under 10 minutes
 
----
 
 ## The Series That Built This
 
@@ -65,7 +63,6 @@ This repository is the living codebase for **QML Series 2**, a 9-post LinkedIn s
 
 > Posts 01-04 are theory. **Posts 05-09 are this repository.**
 
----
 
 ## What We Built
 
@@ -99,7 +96,6 @@ MNIST Image  (28 x 28 = 784 pixels)
 
 For context, a classical CNN on the same task uses hundreds of thousands of parameters. The quantum circuit is extraordinarily parameter-efficient. Whether that efficiency translates to competitive accuracy is the question this project answers.
 
----
 
 ## Project Structure
 
@@ -124,7 +120,6 @@ qml-project/
 
 > **The notebook is the primary entry point.** The `src/` files are the same code in modular form for reuse.
 
----
 
 ## Quick Start
 
@@ -166,7 +161,6 @@ Run cells **top to bottom**. Skip Cell 01 (installation) since you just installe
 
 > **Expected training time:** 3-8 minutes for the quantum model on CPU. This is intentional and explained in the notebook - it is one of the most important practical lessons of the series.
 
----
 
 ## The Key Ideas (Without the Jargon)
 
@@ -186,7 +180,6 @@ Instead, PennyLane uses the **parameter-shift rule**: to find the gradient of a 
 
 Each quantum circuit evaluation runs on a CPU simulator. Each backward pass requires 2 circuit evaluations per quantum parameter. With 32 quantum parameters, that is 64 circuit evaluations per sample per step. A classical network does one matrix multiply. The ~80x speed difference measured in Post 08 comes directly from this.
 
----
 
 ## Honest Results
 
@@ -226,7 +219,6 @@ Four levers tested. One clear winner.
 >
 > The quantum circuit was working hard on 16 nearly useless pixels. Give it 16 informative pixels and it performs noticeably better. Garbage in, garbage out applies to quantum models too.
 
----
 
 ## Tools & Stack
 
@@ -240,7 +232,6 @@ Four levers tested. One clear winner.
 | [Matplotlib](https://matplotlib.org)                                | 3.10.9  | Loss curves, accuracy charts, variance maps              |
 | Jupyter Notebook                                                    | n/a     | Development and exploration environment                  |
 
----
 
 ## Inside the Notebook
 
@@ -260,7 +251,6 @@ Every cell has:
 - Line-by-line comments inside the code
 - Expected outputs noted in comments
 
----
 
 ## Important Notes Before You Run
 
@@ -270,7 +260,6 @@ Every cell has:
 
 **16 features is a NISQ constraint, not a design choice.** A classical CNN uses all 784 pixels through learned convolutional filters. Our circuit is bounded by the number of qubits that can be simulated efficiently on a laptop.
 
----
 
 ## What I Learned Building This
 
@@ -288,7 +277,6 @@ The loss curves from quantum training have more epoch-to-epoch variability than 
 **4. The parameter efficiency is genuinely remarkable.**
 32 quantum parameters learning from 500 images achieving 38% accuracy on a 10-class problem. That is not a failure - it is a demonstration that variational circuits can extract signal from real-world data. They just cannot yet extract it as effectively as classical architectures designed for images.
 
----
 
 ## About This Project
 
@@ -300,13 +288,11 @@ If you found this useful:
 - Follow the [LinkedIn series](https://www.linkedin.com/in/amit-kumar-160767191/) for Post 10 and beyond
 - Drop a comment on any of the articles - the best conversations in this series came from reader questions
 
----
 
 ## License
 
 MIT License: free to use, fork, learn from, and build on.
 
----
 
 <div align="center">
 
