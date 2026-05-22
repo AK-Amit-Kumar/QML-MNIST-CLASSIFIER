@@ -292,12 +292,12 @@ The loss curves from quantum training have more epoch-to-epoch variability than 
 
 ## About This Project
 
-Built by **[Amit Kumar](https://www.linkedin.com/in/amit-kumar/)** as part of the Quantum Machine Learning for Developers series.
+Built by **[Amit Kumar](https://www.linkedin.com/in/amit-kumar-160767191/)** as part of the Quantum Machine Learning for Developers series.
 
 If you found this useful:
 
 - Star the repository
-- Follow the [LinkedIn series](https://www.linkedin.com/in/amit-kumar/) for Post 10 and beyond
+- Follow the [LinkedIn series](https://www.linkedin.com/in/amit-kumar-160767191/) for Post 10 and beyond
 - Drop a comment on any of the articles - the best conversations in this series came from reader questions
 
 ---
