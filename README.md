@@ -29,6 +29,7 @@
 **[ Quick Start](#-quick-start)**
 
 </div>
+<img width="1920" height="1047" alt="ezgif com-animated-gif-maker" src="https://github.com/user-attachments/assets/429ee183-f274-4de0-9b52-435fdbddc711" />
 
 
 ## What Is This, Really?
